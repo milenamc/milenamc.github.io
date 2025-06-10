@@ -1,6 +1,7 @@
 <html>
 <head>
 	<title>milenamc.github.io</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
 	<meta charset="utf-8" />
 	<link rel="stylesheet" href="https://unpkg.com/terminal.css@0.7.4/dist/terminal.min.css" />
 	<style>
@@ -9,6 +10,7 @@
 			grid-template-rows: auto;
 			grid-gap: 2em;
 			grid-template-columns: repeat(auto-fit, minmax(calc(var(--page-width) / 12), 1fr));
+			margin-bottom: 2em;
     	}
 
     	@media (max-width: 600px) {
@@ -28,12 +30,6 @@
 			flex-wrap: wrap;
 			gap: 1em;
 			justify-content: center;
-		}
-
-		@media (max-width: 600px) {
-			.button-group {
-				justify-content: space-around;
-			}
 		}
 
     	figcaption {
@@ -77,7 +73,8 @@
 		<ul>
 			<li>
 				<u>Postdoctoral scholar</u> (04/2021 - current)<br>
-				<a href="https://www.oist.jp/research/research-units/ncbc" target="_blank">Neural Coding and Brain Computing Unit</a>, Okinawa Institute of Science and Technology<br>
+				<a href="https://www.oist.jp/research/research-units/ncbc" target="_blank">Neural Coding and Brain Computing Unit</a><br>
+				Okinawa Institute of Science and Technology<br>
 				Team Leader: Tomoki Fukai
 			</li>
 		</ul>
@@ -126,7 +123,7 @@
 	<div id="art" class="container">
 		<h2>Illustrations for science communication</h2>
 
-		<p>Full portfolio under construction. Click to open the images in a new tab.</p>
+		<p>Click to open the images in a new tab.</p>
 
 		<div class="image-grid">
 			<div>
@@ -149,6 +146,10 @@
 			</div>
 		</div>
 
+		<div class="button-group">
+			<button class="btn btn-default btn-ghost" type="button" onclick="location.href='https://skeppuccino.info/'">Portfolio</button>
+		</div>
+
 		<hr />
 	</div>
 
@@ -167,9 +168,7 @@
 	  		<button class="btn btn-default btn-ghost" type=“button” onclick="location.href='https://twitter.com/skeppuccino'">Twitter</button>
   		</div>
 
-  		<br><br>
-
-  		<p>(powered by <a href="https://terminalcss.xyz/">terminal css</a>)</p>
+  		<blockquote> Powered by <a href="https://terminalcss.xyz/">terminal css</a></blockquote>
 
 	</div>
 
